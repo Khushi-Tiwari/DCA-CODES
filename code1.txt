@@ -1,0 +1,60 @@
+import java.util.* ;
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    String str ;
+	   
+	    
+		System.out.println("Enter a String");
+		Scanner sc = new Scanner (System.in);
+		str = sc.nextLine();
+		
+		int len = str.length();
+		
+        char[] charArray = str.toCharArray();
+        String result = "";
+  
+        // Traverse the character array
+        for (int i = 0; i < charArray.length; i++)
+        {
+            if ((Character.isLetterOrDigit(str.charAt(i)) == false))
+         {
+            System.out.println("Invalid");
+            break;
+         }
+            
+            if(!(charArray[i] == '8' || charArray[i] == '5'))
+            {
+            result = result + charArray[i];
+            
+            }
+            if(charArray[i] == '5')
+            {
+                if(!(i == charArray.length-1) && charArray[i+1]=='3')
+                {
+                    i=i+1;
+                }
+                else
+                {
+                    result = result + charArray[i];
+                }
+            
+            
+            }
+        }
+            System.out.println(result.toLowerCase());
+        
+      
+        
+      
+     
+	
+    }
+}
+
+
+
+
+
+
