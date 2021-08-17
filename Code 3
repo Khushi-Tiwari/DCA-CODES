@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    int mul = 1 , q ;
+		System.out.println("Please enter a number ");
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		if(num > 0 )
+		{
+		while(num !=0)
+		{
+		    
+		    q = num % 10 ;
+		    mul = mul * q ;
+		    num = num/10 ;
+		}
+		System.out.println("Result is - " +mul);
+		}
+		else{
+		    System.out.println("Input is invalid , please enter a valid positive number ");
+		}
+		
+		
+		
+	}
+}
