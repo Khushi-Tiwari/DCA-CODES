@@ -21,3 +21,15 @@ If size is less than 4 , then print invalid .
 
 
 ***************************************************************************************************************************
+
+
+CODE 3 - 
+
+Take a number as input , mutiply all digits in the number and give back the output product . 
+
+If the input given is a negative number then give back the output as number is not valid ,please enter a positive number .
+
+
+****************************************************************************************************************************
+
+
