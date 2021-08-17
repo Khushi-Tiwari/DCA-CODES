@@ -43,4 +43,23 @@ Arrange the identified characters in alpahabetic and as well as in revers .
 
 ***************************************************************************************************************************
 
+CODE 5 - 
+
+Take an array of integer as input . 
+
+Take size from console .
+
+Add up all the elements in the ascedinding order of their presence and give back final output . 
+
+
+INPUT - 
+
+15 , 10 , -2 , 200 , 4 , 5 
+
+OUTPUT - 
+
+198 , 9
+
+****************************************************************************************************************************
+
 
