@@ -1,0 +1,49 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    String result = "";
+	    String s1,s2 ;
+	    int g,s;
+	    System.out.println("Enter first string ");
+	    
+	    Scanner sc = new Scanner (System.in);
+	    s1 = sc.nextLine();
+		System.out.println("Enter Second string ");
+	    s2 = sc.nextLine();
+	    
+	    StringBuffer str = new StringBuffer(s1.replace(" ", ""));
+        StringBuffer str2 = new StringBuffer(s2.replace(" ", ""));
+		
+		
+		
+		//********************************************
+		
+	
+		
+		for(int i =0 ; i<str.length();i++)
+		{
+		for(int j =0 ; j<str2.length();j++)
+		{
+		    if(str.charAt(i) == str2.charAt(j))
+		    {
+		        result = result + str.charAt(i) ;
+		        
+		    }
+		}
+		}
+		
+		
+		//*************************************************
+		
+		char array[] = result.toCharArray();
+		Arrays.sort(array);
+		System.out.println(array);
+		
+		//************************************************************
+		
+		for (int i = array.length - 1; i >= 0; i--)
+            System.out.print(array[i]);
+	}
+}
