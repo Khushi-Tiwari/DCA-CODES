@@ -32,4 +32,15 @@ If the input given is a negative number then give back the output as number is n
 
 ****************************************************************************************************************************
 
+CODE 4 - 
+
+Take two string as an input .
+
+Find the common characters between the strings and give back the output . 
+
+Arrange the identified characters in alpahabetic and as well as in revers .
+
+
+***************************************************************************************************************************
+
 
